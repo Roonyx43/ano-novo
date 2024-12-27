@@ -1,4 +1,4 @@
-const targetDate = new Date('2025-01-01T00:00:00Z').getTime();
+const targetDate = new Date(Date.UTC(2025, 0, 1, 0, 0, 0)).getTime();
 const countdownEl = document.getElementById('countdown');
 const finalMessageEl = document.getElementById('finalMessage');
 const container = document.getElementById('container');
